@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar Lawand</title>
+</head>
+<style>
+body{
+    margin: 0;
+    background:linear-gradient(135deg, #84e4c7 70px, #313668 100.00%);   
+}
+.welcome {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  background-image: url( images/Illustration.jpg);
+  background-repeat: no-repeat;
+  background-position: center top; /* push image to the top */
+
+  /* Make the container very tall */
+  height: 170px;   /* increase this for more vertical space */
+
+  /* Stretch the image to fill the tall box */
+  background-size: 100%;
+
+  /* Font color */
+  color: black;
+
+  /* Optional: add padding if you want text lower */
+  padding-top: 70px;
+}
+
+/* Navbar container */
+.navbar {
+  text-align: center;
+  padding: 0;
+  background: #001F3F;
+}
+
+/* Navbar links */
+.navbar a {
+  text-decoration: none;              /* or underline double if you prefer */
+  font-family: cursive;
+  color: #39CCCC;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease;          /* smooth animation */
+  display: inline-block;              /* allows width animation */
+}
+
+/* Hover effect */
+.navbar a:hover {
+  background-color: rgb(35, 246, 151);
+  border-radius: 0px;
+}
+
+/* Active (clicked) effect */
+.navbar a:active,
+.navbar a:focus,
+.navbar a.active {
+  display: block;              /* make it stretch full width */
+  width: 100%;                 /* expand to navbar width */
+  border: 2px solid #39CCCC;   /* border highlight */
+  border-radius: 0;            /* optional: remove rounded corners */
+  background-color: rgb(35, 246, 151);
+  color: #001F3F;              /* invert text color for contrast */
+}
+        .images {
+            padding: 20px;
+            display: flex;
+            flex-direction: row;   /* row layout */
+            flex-wrap: wrap;       /* allow wrapping if too many */
+            justify-content: center; /* center them */
+            gap: 20px;             /* spacing between items */
+        }
+        .images h1 {
+            width: 100%;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #00000070;
+            padding: 12px;
+            letter-spacing: 20px;
+        }
+        .images a {
+            display: block;
+            width: 200px;
+            text-align: center;
+            border-radius: 30px;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+        }
+        .images h2 {
+            text-align: center;
+            color: rgba(7, 7, 7, 0.63);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .images p {
+            color: rgba(240, 248, 255, 0.301);
+        }
+        .images a:hover {
+            background-color: rgb(18, 97, 136);
+            transition: 0.8s;
+            border-radius: 10px;
+            outline-style: auto;
+            outline-color: rgb(255, 255, 255);
+        }
+        .web {
+            background: linear-gradient(135deg, #0300136d, #3a01013b);
+            position: fixed;
+            left: 85%;
+            bottom: 31%;
+            padding-bottom: 5cm;
+            padding-right: 20px;
+            padding-left: 20px;
+            text-align: center;
+            border-radius: 10px;
+            color: rgba(255, 255, 255, 0.366);
+        }
+        .web h4 {
+            outline-style: dashed;
+            outline-width: 1px;
+            outline-offset: 1cap;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 18px;
+            outline-color: #0109ff56;
+        }
+        .navbar2 {
+            text-align: center;
+            padding: 4px;
+            background: linear-gradient(135deg, #3a0101, #120369);
+            outline-style: double;
+            position: fixed; /* ALWAYS AT BOTTOM */
+            bottom: 0; 
+            left: 0;
+            width: 100%;}
+
+
+</style>
+<body>
+  <div class="left"></div>
+  <div class="right"></div>
+
+    <div class="welcome">   <!-- 1- Yakam div la bo header bakar de -->
+        <h1>Welcome to Lawand's Website</h1> 
+        </div>
+        <div class="navbar">
+ <a href="www.github.com">github </a>   <!---  2- dwam div labo link -->
+  <a href="www.instgram.com">instgram </a>
+  <a href="www.google.com"> Google</a>
+  <a href="www.chatgpt.com"> Chat Gpt</a>
+   </div>
+     <div class="web" >   <!---  3- away dasta rast wachi tebnya-->
+          <h4> Website Info</h4>
+          <p><b> Made by Lawand</b></p>
+          <p> Class C3</p>
+        </div>  
+<div class="images">
+  <h1>List of Applications</h1>
+
+  <a href="#">
+    <img src="images/download (1).jpg" alt="sun user" width="200px" height="200px">
+    <h2>Sun Breather</h2>
+    <hr>
+    <p>Description</p>
+  </a>
+
+  <a href="#">
+    <img src="images/kokushibo.jpg" alt="moon user" width="200px" height="200px">
+    <h2>Moon User</h2>
+    <hr>
+    <p>Description</p>
+  </a>
+
+  <a href="https://www.google.com">
+    <img src="images/𝑨𝒔𝒕𝒂 𝑰𝒄𝒐𝒏.jpg" alt="Black Clover" height="200px" width="200px">
+    <h2>Asta</h2>
+    <hr>
+    <p>Description</p>
+  </a>
+
+  <a href="#">
+    <img src="images/𝗦𝗲𝗶𝘀𝗵𝗶𝗿𝗼 𝗡𝗮𝗴𝗶 ✩.jpg" width="200px" height="200px" alt="Seishiro Nagi">
+    <h2>The Genius</h2>
+    <hr>
+    <p>Details</p>
+  </a>
+</div>
+
+        </a>
+         </div>
+</body>
+</html>
